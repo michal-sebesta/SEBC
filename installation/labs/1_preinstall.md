@@ -55,6 +55,13 @@ echo never > /sys/kernel/mm/transparent_hugepage/enabled
        valid_lft forever preferred_lft forever
        
 
+[root@ip-172-31-22-250 ~]# nslookup ip-172-31-17-42
+Server:		172.31.0.2
+Address:	172.31.0.2#53
+
+Non-authoritative answer:
+Name:	ip-172-31-17-42.eu-central-1.compute.internal
+Address: 172.31.17.42
 
 [root@ip-172-31-22-250 ~]# nslookup 172.31.17.42
 Server:		172.31.0.2
