@@ -145,8 +145,13 @@ read_only=1
 #relay-log=/var/log/mysql/mysql-relay-bin.log
 #log_bin=/var/log/mysql/mysql-bin.log
 
+
+flush tables with read lock; 
+show master status;
 master dump:
 mysqldump -u root -p --all-databases > alldb.sql
+unlock tables; 
+
 
 slave import db:
 mysql -u root -p < /tmp/alldb.sql
