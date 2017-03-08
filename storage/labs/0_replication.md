@@ -1,3 +1,4 @@
+```
 generate file:
 
 hadoop jar /opt/cloudera/parcels/CDH-5.8.3-1.cdh5.8.3.p0.2/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar teragen -D dfs.block.size=33554432 50000 /michal-sebesta/test_file
@@ -158,3 +159,4 @@ FSCK ended at Tue Mar 07 23:19:22 UTC 2017 in 1 milliseconds
 
 
 The filesystem under path '/malexa123/test_file' is HEALTHY
+```
