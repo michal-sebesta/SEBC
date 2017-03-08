@@ -1,3 +1,4 @@
+```
 [root@ip-172-31-22-250 ~]#  cat /etc/sysctl.conf
 # System default settings live in /usr/lib/sysctl.d/00-system.conf.
 # To override those settings, enter new settings here, or in an /etc/sysctl.d/<name>.conf file
@@ -106,3 +107,4 @@ Mar 06 10:19:46 ip-172-31-25-55.eu-central-1.compute.internal chronyd[456]: Gene
 Mar 06 10:19:47 ip-172-31-25-55.eu-central-1.compute.internal systemd[1]: Started NTP client/server.
 Mar 06 10:19:54 ip-172-31-25-55.eu-central-1.compute.internal chronyd[456]: Selected source 46.4.19.10
 Mar 06 10:19:54 ip-172-31-25-55.eu-central-1.compute.internal chronyd[456]: System clock wrong by 0.875805 seconds, adjustment started
+```
