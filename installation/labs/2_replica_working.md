@@ -1,3 +1,4 @@
+```
 master cfg:
 
 [root@ip-172-31-22-250 tmp]# cat /etc/my.cnf
