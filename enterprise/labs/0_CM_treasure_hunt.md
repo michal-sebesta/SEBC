@@ -1,3 +1,4 @@
+```
 What is ubertask optimization? = run “sufficiently small” jobs sequentially within a single JVM
 
 Where in CM is the Kerberos Security Realm value displayed?
@@ -21,3 +22,4 @@ kerberos server installed and configured
 kerberos libs installed on all hosts
 kerberos config distributed to all hosts
 create kerberos principal/admin for kerberos wizard that will create principals
+```
