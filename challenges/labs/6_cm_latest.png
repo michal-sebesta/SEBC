@@ -1,2 +1,15 @@
+```
 curl -u michal-sebesta:cloudera 'http://52.59.206.131:7180/api/version'
 v15
+
+
+[root@ip-172-31-29-132 ~]# curl -u michal-sebesta:cloudera 'http://52.59.206.131:7180/api/v12/cm/deployment'
+{
+  "timestamp" : "2017-03-10T11:10:04.086Z",
+  "clusters" : [ {
+    "name" : "cluster",
+    "displayName" : "michal-sebesta",
+    "version" : "CDH5",
+    "fullVersion" : "5.10.0",
+    
+    ```
