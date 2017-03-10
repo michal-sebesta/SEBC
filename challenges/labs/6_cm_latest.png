@@ -1,4 +1,4 @@
-```
+
 curl -u michal-sebesta:cloudera 'http://52.59.206.131:7180/api/version'
 v15
 
@@ -12,4 +12,4 @@ v15
     "version" : "CDH5",
     "fullVersion" : "5.10.0",
     
-    ```
+    
